@@ -1,0 +1,46 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="FAB-4"
+        android:inputType="textCapWords"
+        android:key="example_text"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Relay control screen" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_preference_1"
+        android:summary="Press switch button to change state"
+        android:title="RELAY 1" />
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+
+    <!-- NOTE: Hide buttons to simplify the UI. Users can touch outside the dialog to
+         dismiss it. -->
+    <!-- NOTE: ListPreference's summary should be set to its value by the activity code. -->
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_preference_2"
+        android:summary="Press switch button to change state"
+        android:title="RELAY 2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_preference_3"
+        android:summary="Press switch button to change state"
+        android:title="RELAY 3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="switch_preference_4"
+        android:summary="Press switch button to change state"
+        android:title="RELAY 4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</PreferenceScreen>
