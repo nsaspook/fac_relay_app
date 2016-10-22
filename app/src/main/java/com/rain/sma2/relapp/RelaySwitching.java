@@ -178,7 +178,10 @@ public class RelaySwitching extends AppCompatPreferenceActivity {
             // updated to reflect the new value, per the Android Design
             // guidelines.
             bindPreferenceSummaryToValue(findPreference("example_text"));
-            //bindPreferenceSummaryToValue(findPreference("switch_preference_1"));
+            bindPreferenceSummaryToValue(findPreference("switch_preference_1"));
+            bindPreferenceSummaryToValue(findPreference("switch_preference_2"));
+            bindPreferenceSummaryToValue(findPreference("switch_preference_3"));
+            bindPreferenceSummaryToValue(findPreference("switch_preference_4"));
         }
 
         @Override
